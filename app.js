@@ -352,15 +352,15 @@ let marks=marks1 + marks2 + marks3 + marks4 + marks5 + marks6 + marks7 + marks8;
 let CGPA = marks/20;
 
 if(CGPA>=8){
-    alert(`Congratulations!!! Your CGPA is ${CGPA}`);
-    console.log(`Congratulations!!! Your CGPA is ${CGPA}`);
+    alert(`Congratulations!!! Your SGPA is ${CGPA}`);
+    console.log(`Congratulations!!! Your SGPA is ${CGPA}`);
 }
 else if(CGPA>=6.5 && CGPA<8){
-    alert(`Well done!!! Your CGPA is ${CGPA} but still  you can do BETTER!!!`);
-    console.log(`Well done!!! Your CGPA is ${CGPA} but still  you can do BETTER!!!`);
+    alert(`Well done!!! Your SGPA is ${CGPA} but still  you can do BETTER!!!`);
+    console.log(`Well done!!! Your SGPA is ${CGPA} but still  you can do BETTER!!!`);
 }
 else{
-    alert(` Your CGPA is ${CGPA}  !!!!NEED TO IMPROVE A LOT!!!`);
+    alert(` Your SGPA is ${CGPA}  !!!!NEED TO IMPROVE A LOT!!!`);
     console.log(` Your CGPA is ${CGPA}  !!!!NEED TO IMPROVE A LOT!!!`);
 }
 });
